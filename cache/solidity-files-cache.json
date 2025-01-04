@@ -2,9 +2,47 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "E:\\Ex\\Blockchain\\hardhat1\\contracts\\Token.sol": {
-      "lastModificationDate": 1735971839504,
-      "contentHash": "aa5b39c627fd7d8c1622b37618adf9e5",
+      "lastModificationDate": 1735977622684,
+      "contentHash": "b84f19d601a3304262a2f283708e3ed3",
       "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "E:\\Ex\\Blockchain\\hardhat1\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1735966230585,
+      "contentHash": "681c532e816169606d13a5fe8b475074",
+      "sourceName": "hardhat/console.sol",
       "solcConfig": {
         "version": "0.8.28",
         "settings": {
@@ -31,10 +69,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        ">=0.4.22 <0.9.0"
       ],
       "artifacts": [
-        "Token"
+        "console"
       ]
     }
   }
